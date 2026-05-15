@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+dist
+
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Local dev tooling
+.claude/
+
