@@ -23,8 +23,13 @@ Target length: **90–150 seconds**. Resolution: at least **1280×720**.
    OAuth attempt.
 3. Vercel environment variables are filled in with the real `TIKTOK_CLIENT_KEY`
    and `TIKTOK_CLIENT_SECRET`, and the site has been redeployed.
-4. A short sample MP4 (10–30 seconds, < 50 MB) to upload during the demo. The
-   existing `creator_p1_seller.mp4` in the project root works.
+4. A short sample MP4 to upload during the demo. Use
+   `D:\Business\1. UpscaleProject\demo_sample_silent.mp4` — it is the
+   `creator_p1_seller.mp4` clip with audio stripped, so there is zero
+   copyright risk from background music. Specs:
+   - 1080 × 1920 (9:16 vertical) — TikTok-native aspect ratio
+   - 14 seconds, H.264, no audio track
+   - 1.7 MB, well below the 4 GB / 50 MB sandbox limits
 5. A screen recorder. Recommended (Windows):
    - **Xbox Game Bar** (built-in: press `Win + G`). Records the active window
      to `Videos\Captures\` as MP4.
@@ -73,8 +78,8 @@ Target length: **90–150 seconds**. Resolution: at least **1280×720**.
 
 ### Scene 5 — Upload & publish to prove `video.publish` (1:05–1:50)
 
-14. Click the **video file** input and pick the sample MP4
-    (`creator_p1_seller.mp4`).
+14. Click the **video file** input and pick the muted sample MP4
+    (`demo_sample_silent.mp4`).
 15. Type a short caption, e.g.
     `"AI-upscaled product clip — DeKAA PicStudio sandbox demo"`.
 16. Click **"Post to TikTok"**.
